@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adam_malik.jiajiri.Requesting">
+
+    <CheckBox
+        android:id="@+id/Usafi"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:text="Usafi"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <CheckBox
+        android:id="@+id/Kufua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kufua"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <CheckBox
+        android:id="@+id/Kupika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kupika"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Switch
+        android:id="@+id/Availability"
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Availability"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="146dp" />
+</android.support.constraint.ConstraintLayout>
